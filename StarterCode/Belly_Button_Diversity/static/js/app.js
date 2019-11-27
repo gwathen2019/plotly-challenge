@@ -45,12 +45,12 @@ function buildCharts(sample) {
       type: "pie"
     };
     let piedata = [trace1];
-    Plotly.newplot("pie", piedata);
+    Plotly.newPlot("pie", piedata);
 });
-}; 
-/* 
+ 
+
     // @TODO: Build a Bubble Chart using the sample data
-    let trace2 = {
+/*    let trace2 = {
       x: otu_ids,
       y: sample_values,
       size: sample_values,
@@ -64,9 +64,9 @@ function buildCharts(sample) {
       }
   };
   let bubble_data = [trace2];
-  Plotly.newplot("bubble", bubble_data);
+  Plotly.newPlot("bubble", bubble_data);*/
 };
-*/
+
     // @TODO: Build a Pie Chart
     // HINT: You will need to use slice() to grab the top 10 sample_values,
     // otu_ids, and labels (10 each).
