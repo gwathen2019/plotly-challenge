@@ -1,4 +1,3 @@
-/*
 function buildMetadata(sample) {
 
   // @TODO: Complete the following function that builds the metadata panel
@@ -12,7 +11,7 @@ function buildMetadata(sample) {
     });
   });
 };
-*/
+
   // Use `d3.json` to fetch the metadata for a sample
     // Use d3 to select the panel with id of `#sample-metadata`
   //  var metadata = d3.select("#sample-metadata");
@@ -29,10 +28,6 @@ function buildMetadata(sample) {
 
     // BONUS: Build the Gauge Chart
     // buildGauge(data.WFREQ);
-
-
-
-
 
 function buildCharts(sample) {
   // @TODO: Use `d3.json` to fetch the sample data for the plots
